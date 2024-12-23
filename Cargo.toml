@@ -1,0 +1,26 @@
+[package]
+name = "tutorial"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "hello_world"
+path = "00_hello_world"
+
+[[bin]]
+name = "ferris"
+path = "01_ferris"
+
+[[bin]]
+name = "rust_book"
+path = "02_rust_book"
+
+[[bin]]
+name = "a_trip_to_io"
+path = "03_a_trip_to_io"
+
+[[bin]]
+name = "dice_dice_baby"
+path = "04_dice_dice_baby"

@@ -4,23 +4,49 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rand = "0.9.0-beta.1"
+ferris-says = "0.3.1"
 
 [[bin]]
 name = "hello_world"
-path = "00_hello_world"
+path = "src/00_hello_world/src/main.rs"
 
 [[bin]]
 name = "ferris"
-path = "01_ferris"
+path = "src/01_ferris/src/main.rs"
 
 [[bin]]
 name = "rust_book"
-path = "02_rust_book"
+path = "src/02_rust_book/src/main.rs"
 
 [[bin]]
 name = "a_trip_to_io"
-path = "03_a_trip_to_io"
+path = "src/03_a_trip_to_io/src/main.rs"
 
 [[bin]]
 name = "dice_dice_baby"
-path = "04_dice_dice_baby"
+path = "src/04_dice_dice_baby/src/main.rs"
+
+[[bin]]
+name = "your_type"
+path = "src/05_your_type/src/main.rs"
+
+[[bin]]
+name = "go_with_the_flow"
+path = "src/06_go_with_the_flow/src/main.rs"
+
+[[bin]]
+name = "pwned"
+path = "src/07_pwned/src/main.rs"
+
+[[bin]]
+name = "the_cutting_room_floor"
+path = "src/08_the_cutting_room_floor/src/main.rs"
+
+[[bin]]
+name = "you_need_structure"
+path = "src/09_you_need_structure/src/main.rs"
+
+[[bin]]
+name = "enumeration_sensation"
+path = "src/10_enumeration_sensation/src/main.rs"

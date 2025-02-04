@@ -54,3 +54,7 @@ path = "src/10_enumeration_sensation/src/main.rs"
 [[bin]]
 name = "packing_your_cargo"
 path = "src/11_packing_your_cargo/src/main.rs"
+
+[[bin]]
+name = "collectors_edition"
+path = "src/12_collectors_edition/src/main.rs"

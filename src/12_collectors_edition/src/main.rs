@@ -18,4 +18,4 @@ fn save_twenty_five_percent(items: &mut Vec<f64> ) {
     for item in items {
         *item *= 0.75;
     }
-1}
+}
